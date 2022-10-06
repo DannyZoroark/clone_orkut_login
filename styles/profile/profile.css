@@ -1,0 +1,87 @@
+header.menu{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: auto;
+}
+
+.container{
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px;
+}
+
+.photo, .description, .counter__friends, .counter__community{
+	border: 2px solid green;
+	width: 100%;
+	height: 300px;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+.description{
+	height: 800px;
+	margin-top: 50px;
+	max-width: 520px;
+}
+
+.photo{
+	height: 500px;
+	border-top-right-radius: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
+}
+
+.photo__avatar > img{
+	border-radius: 15px;
+}
+
+.photo__name{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.photo__name > h1{
+	font-size: 30px;
+}
+
+.photo__tools > div > i{
+	margin-right: 15px;
+}
+
+/*
+.photo > *{
+	border: 1px solid red;
+}
+*/
+
+.counter__friends, .counter__community{
+	height: 350px;
+	margin-top: 50px;
+	width: 340px;
+}
+
+header > nav{
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+header > nav > #title > h1{
+	font-size: 50px;
+}
+
+header > nav #hamburguer > label{
+	font-size: 40px;
+}
